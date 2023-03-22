@@ -11,8 +11,10 @@ public class GameManager : MonoBehaviour
 
     public TextMeshProUGUI textScore;
     public bool gameStarted = false;
+    public bool backInterfaceOnScreen = false;
 
     public GameObject infoInterface;
+    public GameObject backInterface;
 
     private void Awake()
     {
@@ -22,5 +24,23 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         textScore.SetText(Score.ToString());
+        OnEscape();
+    }
+
+    public void OnEscape()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Cursor.visible = true;
+            if (backInterfaceOnScreen == false)
+            {
+                backInterface.SetActive(true);
+                backInterfaceOnScreen = true;
+            } else
+            {
+                backInterface.SetActive(false);
+                backInterfaceOnScreen = false;
+            }
+        }
     }
 }
