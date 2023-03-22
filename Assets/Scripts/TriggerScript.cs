@@ -10,6 +10,7 @@ public class TriggerScript : MonoBehaviour
         if (tag == "Player" || tag == "Bullet")
         {
             GameManager.Instance.gameStarted = true;
+            GameManager.Instance.infoInterface.SetActive(false);
         }
     }
 }

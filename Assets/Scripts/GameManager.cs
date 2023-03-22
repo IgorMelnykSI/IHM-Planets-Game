@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI textScore;
     public bool gameStarted = false;
 
+    public GameObject infoInterface;
+
     private void Awake()
     {
         Instance = this;
