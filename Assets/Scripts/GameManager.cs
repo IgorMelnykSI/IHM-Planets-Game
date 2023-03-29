@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using StarterAssets;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,8 +12,8 @@ public class GameManager : MonoBehaviour
     public Transform startPoint;
 
     //Controls
-    public StarterAssetsInputs controlls;
-    public FirstPersonController capsuleController;
+    public FirstPersonLook mouseMovement;
+    public FirstPersonMovement capsuleMovement;
 
     public int Score = 0;
 
@@ -47,21 +46,23 @@ public class GameManager : MonoBehaviour
         {
             if (backInterfaceOnScreen == false)
             {
+                Cursor.lockState = CursorLockMode.None;
                 // Pause menu become visible
-                capsuleController.enabled = false;
+                capsuleMovement.enabled = false;
                 //capsule.GetComponent<FirstPersonController>().enabled = false;
                 Cursor.visible = true;
                 backInterface.SetActive(true);
                 backInterfaceOnScreen = true;
-                controlls.cursorLocked = false;
+                mouseMovement.enabled = false;
             } else
             {
                 // Pause menu become invisible
                 backInterface.SetActive(false);
                 backInterfaceOnScreen = false;
-                controlls.cursorLocked = true;
+                mouseMovement.enabled = true;
                 Cursor.visible = false;
-                capsuleController.enabled = true;
+                Cursor.lockState = CursorLockMode.Locked;
+                capsuleMovement.enabled = true;
             }
         }
     }
