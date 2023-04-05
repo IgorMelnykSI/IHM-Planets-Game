@@ -12,8 +12,7 @@ public class GameManager : MonoBehaviour
     public Transform startPoint;
 
     //Controls
-    public FirstPersonLook mouseMovement;
-    public FirstPersonMovement capsuleMovement;
+    public GameObject player;
 
     public int Score = 0;
 
@@ -47,22 +46,18 @@ public class GameManager : MonoBehaviour
             if (backInterfaceOnScreen == false)
             {
                 Cursor.lockState = CursorLockMode.None;
-                // Pause menu become visible
-                capsuleMovement.enabled = false;
-                //capsule.GetComponent<FirstPersonController>().enabled = false;
+                player.SetActive(false);
                 Cursor.visible = true;
                 backInterface.SetActive(true);
                 backInterfaceOnScreen = true;
-                mouseMovement.enabled = false;
             } else
             {
+                player.SetActive(true);
                 // Pause menu become invisible
                 backInterface.SetActive(false);
                 backInterfaceOnScreen = false;
-                mouseMovement.enabled = true;
                 Cursor.visible = false;
                 Cursor.lockState = CursorLockMode.Locked;
-                capsuleMovement.enabled = true;
             }
         }
     }
