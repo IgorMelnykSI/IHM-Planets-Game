@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 2ddf7593f12eb794fb6dc1abddffbf71
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - carMovement: {instanceID: 0}
+  - rg: {instanceID: 0}
+  - breakLightLeft: {instanceID: 0}
+  - breakLightRight: {instanceID: 0}
+  - trailLeft: {instanceID: 0}
+  - trailRight: {instanceID: 0}
+  - leftWheel: {instanceID: 0}
+  - rightWheel: {instanceID: 0}
+  - engineSfx: {fileID: 8300000, guid: e9e9f224fe6d5c6458c29dd4fce2682d, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

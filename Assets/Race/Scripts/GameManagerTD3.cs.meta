@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 5d3b03185895fe646ac277bf1cdc6144
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cameraIntroAnimator: {instanceID: 0}
+  - followPlayerCamera: {instanceID: 0}
+  - playerControls: {instanceID: 0}
+  - lapTracker: {instanceID: 0}
+  - tricolorLights: {instanceID: 0}
+  - audioSource: {instanceID: 0}
+  - lowBeep: {fileID: 8300000, guid: 9c5c241514eaf2043a71bb05f406cd81, type: 3}
+  - highBeep: {fileID: 8300000, guid: aba26e9fb2231eb46bb34a2965ea0359, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
