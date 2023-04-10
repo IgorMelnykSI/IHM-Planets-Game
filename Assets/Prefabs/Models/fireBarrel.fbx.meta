@@ -1,0 +1,291 @@
+fileFormatVersion: 2
+guid: 37de81783bc574f9e8bfc1fbaef40515
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ToxicBarrelDamage
+    second: {fileID: 2100000, guid: 7ae31e136d9604ba9a01ce6fae913ce1, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_BaseColor
+    second: {fileID: 2800000, guid: 1917b332eb434458caab1dd56ea4d6fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_BaseColor000
+    second: {fileID: 2800000, guid: 8fbdf4b087423423b804a3c2e860b323, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_BaseColor001
+    second: {fileID: 2800000, guid: 17f2bdfa3c63c49279d50c920fcf9f3a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_BaseColor002
+    second: {fileID: 2800000, guid: b4eeba08f1e064ae1844ca5a0f041c06, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_BaseColor003
+    second: {fileID: 2800000, guid: 4cd9dd2719477445ea5279cd6ea89aa6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_BaseColor004
+    second: {fileID: 2800000, guid: 4b8651b4dd64c42b6aa0f0cd280b8024, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_BaseColor005
+    second: {fileID: 2800000, guid: 790d6e26d742a405f87a7e8fa6655b95, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_BaseColor006
+    second: {fileID: 2800000, guid: 5f22b9aaecaff48a983ced10d9c404c0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_BaseColor007
+    second: {fileID: 2800000, guid: 94d956e908d6948cd9d8666add2a1cd6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_Normal
+    second: {fileID: 2800000, guid: 6a06f09f0e9324bcaaacbaa607408f10, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_Normal000
+    second: {fileID: 2800000, guid: 348460e065eed458080d3d1896cf6d91, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_Normal001
+    second: {fileID: 2800000, guid: 28c56d50335ec4fe8a46853df07e8ca9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_Normal002
+    second: {fileID: 2800000, guid: b9b97d4feebf54773a351da2069166ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_Normal003
+    second: {fileID: 2800000, guid: 24181d8d71b704b968346bef0065489f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_Normal004
+    second: {fileID: 2800000, guid: 037c129834a624cb38220e6779c10744, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_Normal005
+    second: {fileID: 2800000, guid: bd9f3e497cb7c43b5b3f68a44d714242, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_Normal006
+    second: {fileID: 2800000, guid: 20b269b78ee824f53a66aaea698bf2f9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_Normal007
+    second: {fileID: 2800000, guid: b3e8e600306e641238a584dbe0f0c885, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_OcclusionRoughnessMetallic
+    second: {fileID: 2800000, guid: 5a354a321293a473db49c7b3d24ffdc1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_OcclusionRoughnessMetallic000
+    second: {fileID: 2800000, guid: 3ff2d9e5a058244cf871e684c996733f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_OcclusionRoughnessMetallic001
+    second: {fileID: 2800000, guid: d5d3275d5ef9e4a77b5bd334b322e622, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_OcclusionRoughnessMetallic002
+    second: {fileID: 2800000, guid: 0868c54e8df9b4d2db8b37f6101d84f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_OcclusionRoughnessMetallic003
+    second: {fileID: 2800000, guid: cb88034effdba456f9933e54e58ae928, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_OcclusionRoughnessMetallic004
+    second: {fileID: 2800000, guid: f8659f9e01bf1492bbbe59c49c156518, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_OcclusionRoughnessMetallic005
+    second: {fileID: 2800000, guid: 2074f500bb9e04ea5b5254d90f1ba8fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_OcclusionRoughnessMetallic006
+    second: {fileID: 2800000, guid: 07a682a571dad4ef3aecf428f7e52bb9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_OcclusionRoughnessMetallic007
+    second: {fileID: 2800000, guid: 7d4fe016d90164697bf1a5e9a1ad554b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_OcclusionRoughnessMetallic008
+    second: {fileID: 2800000, guid: de05e95484e3b45f3a127b25232cfccb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_OcclusionRoughnessMetallic009
+    second: {fileID: 2800000, guid: 5d6d6c01e5a56464b950766428746fc2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_OcclusionRoughnessMetallic010
+    second: {fileID: 2800000, guid: 1d2cfcfa53dd6436da6d6cf6fda51523, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_OcclusionRoughnessMetallic011
+    second: {fileID: 2800000, guid: 5f463b4a984584a7c9beab51f48c3235, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_OcclusionRoughnessMetallic012
+    second: {fileID: 2800000, guid: 5334c1ef226af473990bddd90f3b6a66, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_OcclusionRoughnessMetallic013
+    second: {fileID: 2800000, guid: e7a56896b3bcc46489210b7a347721ed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_OcclusionRoughnessMetallic014
+    second: {fileID: 2800000, guid: 0613f801423bb4ed6a0f58d055404f0e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_OcclusionRoughnessMetallic015
+    second: {fileID: 2800000, guid: 7bde3144f2dc445e48ff02b73336e8bb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LP_Banan_OcclusionRoughnessMetallic016
+    second: {fileID: 2800000, guid: 5be4520e974f2427ba9cd21d43ea01da, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class GameManager : MonoBehaviour
     // To teleport player when he reched end of a map
     public Transform playerTrasform;
     public Transform startPoint;
+
+    //Life
+    public List<GameObject> lifeImages;
+    private int lifePoints = 3;
 
     //Controls
     public GameObject player;
@@ -37,6 +42,16 @@ public class GameManager : MonoBehaviour
     {
         textScore.SetText(Score.ToString());
         OnEscape();
+    }
+
+    public void takeDammage()
+    {
+        lifeImages[lifePoints - 1].SetActive(false);
+        this.lifePoints--;
+        if (lifePoints == 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 
     public void OnEscape()

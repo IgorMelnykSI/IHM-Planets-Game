@@ -14,6 +14,7 @@ public class WasteObject : MonoBehaviour
         {
             GameManager.Instance.Score++;
             this.gameObject.GetComponent<ParticleSystem>().Play();
+            this.gameObject.GetComponent<BoxCollider>().enabled = false;
             Destroy(this.gameObject, 0.3f);
             Debug.Log("Le score actuel est : " + GameManager.Instance.Score);
         }
