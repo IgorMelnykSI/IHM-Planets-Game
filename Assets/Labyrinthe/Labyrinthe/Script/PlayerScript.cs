@@ -35,6 +35,10 @@ public class PlayerScript : MonoBehaviour
         currentHealth = maxHealth;
       }
 
+      if(Input.GetKey(KeyCode.M)){
+        transform.position = new Vector3(64, 0, 57);
+      }
+
     }
 
     private void OnTriggerEnter(Collider other) {

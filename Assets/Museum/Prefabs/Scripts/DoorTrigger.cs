@@ -28,7 +28,7 @@ public class DoorTrigger : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            SceneManager.LoadScene("MainScene"); // TODO Mettre la scene suivante course ou labyrinthe 
+            SceneManager.LoadScene("LabyrintheMortel"); // TODO Mettre la scene suivante course ou labyrinthe 
         }
     }
 

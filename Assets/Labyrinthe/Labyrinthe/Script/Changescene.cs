@@ -20,7 +20,7 @@ public class Changescene : MonoBehaviour
     }
         private void OnTriggerEnter(Collider other) {
             if(other.gameObject.tag == "Player")
-                SceneManager.LoadScene("MainScene");
+                SceneManager.LoadScene("RaceScene");
 
     }
 }
