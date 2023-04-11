@@ -12,6 +12,7 @@ public class BulletSpawner : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Debug.Log("Pressed primary button.");
+            this.gameObject.GetComponent<AudioSource>().Play();
             Instantiate(bullet, bulletOrigin.transform.position, bulletOrigin.transform.rotation);
             Debug.Log("Bullet origin : " + bulletOrigin.transform);
         }

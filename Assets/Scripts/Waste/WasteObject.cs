@@ -13,6 +13,7 @@ public class WasteObject : MonoBehaviour
         if (tag == "Player" || tag == "Bullet")
         {
             GameManager.Instance.Score++;
+            this.gameObject.GetComponent<AudioSource>().Play();
             this.gameObject.GetComponent<ParticleSystem>().Play();
             this.gameObject.GetComponent<BoxCollider>().enabled = false;
             Destroy(this.gameObject, 0.3f);
