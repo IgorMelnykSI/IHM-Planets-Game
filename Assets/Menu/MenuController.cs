@@ -15,7 +15,7 @@ public class MenuController : MonoBehaviour
     {
         SceneManager.LoadScene(_newGameLevel);
     }
-    
+    // Not our case
     public void LoadGameDialogYes()
     {
         if (PlayerPrefs.HasKey("SavedLevel"))
@@ -30,7 +30,27 @@ public class MenuController : MonoBehaviour
             noSavedGameDialog.SetActive(true);
         }
     }
-    
+
+    public void LoadMuseum()
+    {
+        SceneManager.LoadScene("Museum");
+    }
+
+    public void LoadLab()
+    {
+        SceneManager.LoadScene("LabyrintheMortel");
+    }
+
+    public void LoadRace()
+    {
+        SceneManager.LoadScene("RaceScene");
+    }
+
+    public void LoadCoW()
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
     public void ExitButton()
     {
         Application.Quit();
