@@ -134,6 +134,12 @@ public class CarEffects : MonoBehaviour
         rightWheel.localRotation = Quaternion.Euler(rightWheel.localRotation.eulerAngles.x, rightWheel.localRotation.eulerAngles.y, wheelRotationAngle);
         leftWheelTire.localRotation = leftWheel.localRotation;
         rightWheelTire.localRotation = rightWheel.localRotation;
+        
+        leftWheel.position += new Vector3(0.07f, 0f, 0f);
+        rightWheel.position += new Vector3(-0.07f, 0f, 0f);
+
+        leftWheelTire.position += new Vector3(0.07f, 0f, 0f);
+        rightWheelTire.position += new Vector3(-0.07f, 0f, 0f);
 
     }
 

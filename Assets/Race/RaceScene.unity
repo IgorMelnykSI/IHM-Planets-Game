@@ -2883,15 +2883,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359339397}
-  m_LocalRotation: {x: 0.03341685, y: 0, z: 0, w: 0.9994415}
-  m_LocalPosition: {x: -40.955, y: 69.57, z: -76.76373}
+  m_LocalRotation: {x: 0.0018325554, y: 0, z: 0, w: 0.99999833}
+  m_LocalPosition: {x: -40.955, y: 70.16, z: -76.76373}
   m_LocalScale: {x: 1.7, y: 1.7, z: 1.7}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 263926096}
   m_Father: {fileID: 2055680141}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 3.83, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.21, y: 0, z: 0}
 --- !u!1 &370726195
 GameObject:
   m_ObjectHideFlags: 0
@@ -16826,7 +16826,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147955522617}
   m_LocalRotation: {x: 0.020069981, y: 0, z: 0, w: 0.9997986}
-  m_LocalPosition: {x: -58.955, y: 69.57, z: -76.738464}
+  m_LocalPosition: {x: -58.955, y: 70.35, z: -76.738464}
   m_LocalScale: {x: 1.7, y: 1.7, z: 1.7}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -24260,15 +24260,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8945064361006472165}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -49.954964, y: 69.9, z: -64.61615}
+  m_LocalRotation: {x: 0.0061086393, y: 0, z: 0, w: 0.99998134}
+  m_LocalPosition: {x: -49.954964, y: 69.97, z: -64.61615}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4437987592079173084}
   m_Father: {fileID: 2055680141}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.7, y: 0, z: 0}
 --- !u!4 &8632213532152284292
 Transform:
   m_ObjectHideFlags: 0
@@ -24533,7 +24533,6 @@ GameObject:
   - component: {fileID: 8945064361006472174}
   - component: {fileID: 8945064361006472175}
   - component: {fileID: 8945064361006472176}
-  - component: {fileID: 8945064361006472177}
   - component: {fileID: 8945064361006472178}
   m_Layer: 0
   m_Name: 1967-shelby-ford-mustang
@@ -24654,18 +24653,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   antiRollForce: 5000
---- !u!114 &8945064361006472177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8945064361006472165}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c749a7dbce4591f40ac88b49c02f9946, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &8945064361006472178
 AudioSource:
   m_ObjectHideFlags: 0
