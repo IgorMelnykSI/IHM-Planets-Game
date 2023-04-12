@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class PlayerControls : MonoBehaviour
 {
@@ -30,6 +31,10 @@ public class PlayerControls : MonoBehaviour
 
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.M)){
+            SceneManager.LoadScene("MainScene");
+
+        }
         float inputY = Input.GetAxis("Vertical");
         float inputX = Input.GetAxis("Horizontal");
 
